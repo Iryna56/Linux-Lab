@@ -26,7 +26,7 @@ Fachinformatikerin für Anwendungsentwicklung (IHK).
 | 07 | [Netzwerk und DNS](07-Netzwerk-und-DNS/) | TCP/IP, DNS, NetworkManager |
 | 08 | [Firewall](08-Firewall/) | Firewalld, Firewall-Zonen |
 | 09 | [Git und GitHub](09-Git-und-GitHub/) | SSH, Versionsverwaltung |
-
+| 10 | [Apache-Webserver](10-Apache-Webserver/) | Apache, Virtual Hosts, Website-Konfiguration, Firewall, SELinux und Troubleshooting |
 ## Praktische Kompetenzen
 
 - Linux-Systemadministration
@@ -40,7 +40,15 @@ Fachinformatikerin für Anwendungsentwicklung (IHK).
 - Versionsverwaltung
 
 ## Projekthighlights
+### Apache-Webserver
 
+- Installation und Dienstverwaltung
+- Konfiguration namensbasierter Virtual Hosts
+- Erstellung eigener HTML-Webseiten
+- Lokale Namensauflösung mit /etc/hosts
+- Dateiberechtigungen und Benutzerverwaltung
+- Firewall- und SELinux-Grundlagen
+- Systematische Fehleranalyse und Troubleshooting
 ### Systemüberwachung mit Bash und Systemd
 
 Entwicklung eigener Bash-Skripte zur Erfassung
