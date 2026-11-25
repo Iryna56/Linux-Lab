@@ -1,0 +1,7 @@
+[Unit]
+Description=Mein einfacher Testjob
+[Service]
+Type=oneshot
+ExecStart=/opt/systemd_prozess/systemzustand.sh
+[Install]
+WantedBy=multi-user.target

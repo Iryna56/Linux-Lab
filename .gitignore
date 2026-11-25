@@ -1,0 +1,12 @@
+*.log
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.bak
+*.key
+*.pem
+.env
+.ssh/
+*history*
+backup/

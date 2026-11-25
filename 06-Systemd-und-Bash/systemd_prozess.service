@@ -1,0 +1,9 @@
+[Unit]
+Description=Systemd Job
+
+[Service]
+Type=oneshot
+ExecStart=/opt/systemd_prozess/systemd_sh
+
+[Install]
+WantedBy=multi-user.target

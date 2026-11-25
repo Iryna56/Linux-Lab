@@ -1,0 +1,10 @@
+[Unit]
+Description=Überwache systemd_prozess.service alle 2 min
+[Timer]
+OnBootSec=1 min
+OnUnitActiveSec=2min
+Unit=systemd_prozess.service
+
+[Install]
+WantedBy=timers.target
+
